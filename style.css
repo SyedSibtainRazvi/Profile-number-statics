@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.stats-container {
+    margin: 10px;
+    min-width: 140px;
+    height: 70px;
+    position: relative;
+    padding: 10px;
+}
+
+.stats-container h4 {
+    position: absolute;
+    white-space: nowrap;
+    left: 20%;
+    transform: translateX(-5%);
+    bottom: 1px;
+    color: #0096c7;
+    font-size: large
+}
+
+.counter {
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    font-weight: 100;
+    transform: translateX(-50%);
+    color: #03045e;
+}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+}
