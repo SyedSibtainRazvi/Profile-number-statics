@@ -29,7 +29,8 @@ body {
 }
 
 .counter {
-    font-size: 30px;
+    font-size: 26px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     left: 50%;
     font-weight: 100;
